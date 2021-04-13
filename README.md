@@ -37,8 +37,15 @@ Best fit line equation for linear regression is **y= mx + c**,  where m is slope
 
 #### Polynomial Regression : It is a non-linear regression and relationship of output variable is fitted to nth degree of the input variable.
 
+#### Advantages of Using Linear Regression
+1.  Linear Regression method is very easy to use. If the relationship between the variables (independent and dependent) is known, we can easily implement the regression method accordingly (Linear Regression for linear relationship).
+2.  Linear Regression provides the significance level of each attribute contributing to the prediction of the dependent variable. With this data, we can choose between the variables which are highly contributing/ important variables. 
+3.  After performing linear regression we get the best fit line, which is used in prediction, which we can use according to the business requirement.
 
-
+#### Limitations of Linear Regression
+ 1. The main limitation of linear regression is that its performance is not up to the mark in the case of a nonlinear relationship.
+ 2. Linear regression can be affected by the presence of outliers in the dataset.
+ 3. The presence of high correlation among the variables also leads to the poor performance of the linear regression model.
 
 ## Logistic Regression 
 It solely depends on maximum likelihood estimation. _Maximum likelihood estimation maximises the probability that classifies the event being 1 or 0 by estimating certain parameters. Every probability equation goes by the following._
@@ -46,6 +53,17 @@ It solely depends on maximum likelihood estimation. _Maximum likelihood estimati
 ![image](https://user-images.githubusercontent.com/30498799/114493582-61134600-9c4d-11eb-8376-8dd566a62081.png)
 
 It finds out the probability by transforming the dependent/predictive variable  into a logit variable with respect to the independent/input variable or the features of the input data.
+
+#### Merits of Logistic Regression
+  * Logistic Regression has less chance of overfitting.
+  * Tuning of parameters is not required much
+
+#### Merits of Logistic Regression
+  * They fail to play good in large datasets
+  * The algorithm only works fine in linearly separable data
+  * They are not flexible with continuous data
+
+##### Logistic Regression works fine only when the target variable is discrete in nature. They do not have the flexibility to act as regression analysis. Also, they have less chance of overfitting but in data having a higher dimension, logistic can overfit. For such cases, there are regularising techniques called L1 and L2 which shrink the coefficients of the algorithm to avoid overfitting.  Logistic regression can also work fine with the discretised data as they do not follow a decision-based approach.
 
 ## Decision Tree
 It makes decisions based on the conditions present in the data. It can give amazing results when the data is mostly categorical in nature and depends on conditions.
