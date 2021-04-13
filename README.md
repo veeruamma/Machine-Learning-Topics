@@ -55,8 +55,13 @@ It makes decisions based on the conditions present in the data. It can give amaz
 In the above representation of a tree, the conditions such as the salary, office location and facilities go on splitting into branches until they come to a decision whether a person should accept or decline the job offer. The conditions are known as the internal nodes and they split to come to a decision which is known as leaf.
 
 ### Types of Decision Tree
-1.  Classification : These trees are applied on data when the outcome is discrete in nature or is categorical such as a person died or survived, approval of loan etc.
-2.  Regression : These trees are used when the outcome of the data is continuous in nature such as prices, age of a person, length of stay in a hotel, etc.
+1.  **Classification** : These trees are applied on data when the outcome is discrete in nature or is categorical such as a person died or survived, approval of loan etc.
+2.  **Regression** : These trees are used when the outcome of the data is continuous in nature such as prices, age of a person, length of stay in a hotel, etc.
+
+There are different types of algorithms used to build decision tree such as
+1.  **Iterative Dichotomiser 3 (ID3)** :
+  * It generates a tree by considering the whole set S as the root node then iterates and splits the data into subsets to calculate the entropy.
+  * It is harder to use on continuous data and splitting the data in case of continuous data is time consuming
 
 
 
