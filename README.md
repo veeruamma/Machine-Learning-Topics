@@ -41,6 +41,10 @@ Best fit line equation for linear regression is **y= mx + c**,  where m is slope
 
 
 ## Logistic Regression 
+It solely depends on maximum likelihood estimation. _Maximum likelihood estimation maximises the probability that classifies the event being 1 or 0 by estimating certain parameters. Every probability equation goes by the following._
+
+![image](https://user-images.githubusercontent.com/30498799/114493582-61134600-9c4d-11eb-8376-8dd566a62081.png)
+
 
 ## Decision Tree 
 
