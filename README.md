@@ -76,7 +76,7 @@ There are different types of algorithms used to build decision tree such as
    * For classification, Gini index is used as cost function
    * For regression, sum squarred error is used as cost function
    
-5. **Chi-square Automatic Interaction Detecto (CHAID)**:
+5. **Chi-square Automatic Interaction Detector (CHAID)**:
    * It can deal with any type of variables such as nominal, ordinal or continuous.
    * In regression tree, it uses F-test and in classification trees, it uses the Chi-Square test.
    * It is very less used and adopted in real world problems compared to other algorithms.
