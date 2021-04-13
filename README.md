@@ -60,9 +60,28 @@ In the above representation of a tree, the conditions such as the salary, office
 
 There are different types of algorithms used to build decision tree such as
 1.  **Iterative Dichotomiser 3 (ID3)** :
-  * It generates a tree by considering the whole set S as the root node then iterates and splits the data into subsets to calculate the entropy.
-  * It is harder to use on continuous data and splitting the data in case of continuous data is time consuming
+   * It generates a tree by considering the whole set S as the root node then iterates and splits the data into subsets to calculate the entropy.
+   * It is harder to use on continuous data and splitting the data in case of continuous data is time consuming
 
+2. **C4.5**:
+   * It's quite advanced compared to ID3 as it considers the data which are classified samples.
+   * It generates a tree by splitting samples based on the normalized information gain and the feature having the highest information gain makes the decision.
+   * it can handle both continuous and discrete attributes
+   * It removes all the branches having low importance.
+   
+3. **CART**:
+   * It can perform both classification and regression tasks.
+   * It generates tree by considering Gini index.
+   * It follows Greedy algorithm for splitting thus reduce the cost function. 
+   * For classification, Gini index is used as cost function
+   * For regression, sum squarred error is used as cost function
+   
+5. **Chi-square Automatic Interaction Detecto (CHAID)**:
+   * It can deal with any type of variables such as nominal, ordinal or continuous.
+   * In regression tree, it uses F-test and in classification trees, it uses the Chi-Square test.
+   * It is very less used and adopted in real world problems compared to other algorithms.
+  
+7. **Multivariate adaptive regression splines (MARS)**: It is implemented in regression problems when the data is mostly nonlinear in nature.
 
 
 ## Support Vector Machine(SVM) 
