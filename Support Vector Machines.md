@@ -48,6 +48,33 @@ Now let us see how to handle the two-dimensional linearly inseparable data.
 
 In two-dimensional data, the polynomial kernel of the second degree is applied by using a linear plane after transforming it to higher dimensions.
 
+## Kernel Functions
+
+Kernel functions can also be regarded as the tuning parameters in an SVM model. They are responsible for removing the computational requirement to achieve the higher dimensional vector space and deal with the non-linear separable data. There are two widely used kernel functions:
+1.  Polynomial kernel
+2.  Radial Basis Function (RBF) kernel
+
+###  Polynomial Kernel
+
+A polynomial function is used with a degree 2 to separate the non-linear data by transforming them into higher dimensions.
+
+### Radial Basis Function (RBF) kernel
+
+This kernel function is also known as the Gaussian kernel function. It is capable of producing an infinite number of dimensions to separate the non-linear data. It depends on a hyperparameter ‘γ'(gamma) which needs to be scaled while normalizing the data. The smaller the value of the hyperparameter, the smaller the bias and higher the variance it gives. While a higher value of hyperparameter gives a higher bias and lower variance solutions.  
+
+## Advantages and disadvantages
+
+### Some of the advantages of SVM are
+1.  They are flexible in unstructured, structured and semi structured data.
+2.  Kernel function eases the complexities in almost any data type.
+3.  Overfitting is less observed compared to other models.
+
+### disadvantages are
+1.  Training time is more while computing large datasets.
+2.  Hyperparameters are often challenging while interpreting their impact.
+3.  Overall interpretation is difficult because of some black box approaches.
+
+
 
 
 
