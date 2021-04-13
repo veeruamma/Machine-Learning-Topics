@@ -47,7 +47,18 @@ It solely depends on maximum likelihood estimation. _Maximum likelihood estimati
 
 It finds out the probability by transforming the dependent/predictive variable  into a logit variable with respect to the independent/input variable or the features of the input data.
 
-## Decision Tree 
+## Decision Tree
+It makes decisions based on the conditions present in the data. It can give amazing results when the data is mostly categorical in nature and depends on conditions.
+
+![image](https://user-images.githubusercontent.com/30498799/114527336-75ba0300-9c7a-11eb-9e9c-4a6825ecdc9b.png) 
+
+In the above representation of a tree, the conditions such as the salary, office location and facilities go on splitting into branches until they come to a decision whether a person should accept or decline the job offer. The conditions are known as the internal nodes and they split to come to a decision which is known as leaf.
+
+### Types of Decision Tree
+1.  Classification : These trees are applied on data when the outcome is discrete in nature or is categorical such as a person died or survived, approval of loan etc.
+2.  Regression : These trees are used when the outcome of the data is continuous in nature such as prices, age of a person, length of stay in a hotel, etc.
+
+
 
 ## Support Vector Machine(SVM) 
 
