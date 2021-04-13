@@ -45,6 +45,7 @@ It solely depends on maximum likelihood estimation. _Maximum likelihood estimati
 
 ![image](https://user-images.githubusercontent.com/30498799/114493582-61134600-9c4d-11eb-8376-8dd566a62081.png)
 
+It finds out the probability by transforming the dependent/predictive variable  into a logit variable with respect to the independent/input variable or the features of the input data.
 
 ## Decision Tree 
 
