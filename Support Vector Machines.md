@@ -75,7 +75,7 @@ This kernel function is also known as the Gaussian kernel function. It is capabl
 3.  Overall interpretation is difficult because of some black box approaches.
 
 
-
+#### Though SVM is flexible in every type of data, we need to be still careful playing around with the parameters such as kernel tricks and also the hyperparameter. The business condition and its risk can be fatal if the model undergoes huge misclassification which is why parameter tuning is necessary. SVM can be used in images and text analysis but accuracy depends only on the type and condition of the data. Business domains such as banking and healthcare where misclassification can be too risky, SVM should be well tested concerning their parameters.
 
 
 
