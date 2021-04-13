@@ -83,6 +83,11 @@ There are different types of algorithms used to build decision tree such as
   
 7. **Multivariate adaptive regression splines (MARS)**: It is implemented in regression problems when the data is mostly nonlinear in nature.
 
+#### Advantages of Decision Tree
+1.  _Preprocessing of data such as normalization and scaling is not required which reduces the effort in building a model._
+2.  _It can handle both categorical and numeric data and is much efficient compared to other algorithms._
+3.  _It's a flexible algorithm as it doesn't not affected by a missing value._
+
 
 ## Support Vector Machine(SVM) 
 
