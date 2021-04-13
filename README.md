@@ -12,6 +12,23 @@ Regression
 
 Best fit line equation for linear regression is **y= mx + c**,  where m is slope and c is intercept or constant
 
+#### Simple Linear Regression : If there is only input/independent varibale. y = mx + c, trying to find the best m and c values for y and x. Just a line
+#### Multiple Linear Regression : If there are more than one input/independent varibale. y = m1x1 + m2x2 + ... +c, trying to find the best set of m and c values. It's a plane
+
+![image](https://user-images.githubusercontent.com/30498799/114487189-c06b5900-9c41-11eb-8278-c3a77dd6a158.png)
+
+
+### Assumptions for Linear Regression models
+1. Linearity : should have linear relationship b/w input and output variables.
+2. Multicollinearity : two or more input variables shouldn't be highly correlated
+3. Homoscedasticity : residuals should be homoscedasticity that means variance of error are constant across input variables
+4. Multivariate Normality : residuals should be normally distributed.
+5. Categorical data : categorical data should be converted into dummy variables.
+6. Minimum records : at least of 20 records of input variables needed.
+
+#### Polynomial Regression : It is a non-linear regression and relationship of output variable is fitted to nth degree of the input variable.
+
+
 
 
 ## Logistic Regression 
