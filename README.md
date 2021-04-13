@@ -69,7 +69,7 @@ There are different types of algorithms used to build decision tree such as
    * it can handle both continuous and discrete attributes
    * It removes all the branches having low importance.
    
-3. **CART**:
+3. **Classification And Regression Tree CART**:
    * It can perform both classification and regression tasks.
    * It generates tree by considering Gini index.
    * It follows Greedy algorithm for splitting thus reduce the cost function. 
@@ -87,6 +87,32 @@ There are different types of algorithms used to build decision tree such as
 1.  _Preprocessing of data such as normalization and scaling is not required which reduces the effort in building a model._
 2.  _It can handle both categorical and numeric data and is much efficient compared to other algorithms._
 3.  _It's a flexible algorithm as it doesn't not affected by a missing value._
+
+
+#### Decision Tree Parameters
+1.  **Entropy** :
+    * It is a measure of impurity present in the data.
+    * Entropy with the lowest value makes a model better in terms of prediction as it segregates the classes better.
+
+2.  **Information Gain** :
+    * It is a measure used to generalize the impurity.
+    * Higher the information gain, lower is the entropy.
+    * 
+3.  **Gini** :
+    * It is a measure of misclassification and is used when the data contain multi class labels.
+    * It is similar to entropy but it calculates much quicker than entropy.
+  
+4.  **Reduction in Variance** :
+    * It is used when the decision tree works for regression and the output is continuous is nature.
+
+
+#### Challenges in Decision Tree 
+* **Overfitting**: Fatures with very low importnace can lead into overfitting of the model. This can be avoided by two methods
+    1.  **_Pruning_**: It is a process of removing the branches havign the features of low importance. It removes the nodes either from leaves or nodes. there are two pruning techniques such as post pruning and pre pruning used to avoid overfitting.
+    2.  **_Ensemble method or bagging and boosting_** : It resamples the training data repeatedly by building multiple decision trees. Boosting technique is used to train new instances to give importance to those instances which are misclassified. AdaBoost is one commonly used boosting technique.
+* **Discretization**: When the data contains too many numerical values, discretization is required as the algorithm fails to make a decision on such small and rapidly changing values. Such a process can be time consuming and produce inaccurate results when it comes in training the data.
+
+##### If data contains too many logical conditions or is discretized to categories, then decision tree algorithm is the right choice. If the data contains too many numeric variables, then it is better to prefer other classification algorithms as decision tree will perform badly due to the presence of minute variation of attributes present in the data. Still, it is advisable to perform feature engineering on numeric data to confront the algorithm that a decision-making tree holds.
 
 
 ## Support Vector Machine(SVM) 
