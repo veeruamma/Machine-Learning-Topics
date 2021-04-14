@@ -4,7 +4,7 @@ Projects worked on machine learning algorithms
 ## Underfitting and Overfitting
 
 While fitting the model, there can be 2 events which will lead to the bad performance of the model. These events are
-1. **Underfitting** : Where the model couldn't fir the data well enough. This model gives lower accuracy and is unbale to capture the relationship between input and output variables. It can be avoided by using more data or by optimising the parameters of the model.
+1. **Underfitting** : Where the model couldn't fit the data well enough. This model gives lower accuracy and is unbale to capture the relationship between input and output variables. It can be avoided by using more data or by optimising the parameters of the model.
 2. **Overfitting** : When the model predicts very well on training data and is not able to predict well on test data or validation data. the main reason for this could be memorising the training data and unable to generalize the test or unseen data. It can be avoided by using regularisation techniques such as drop out or by propser features selection.
 
 ![image](https://user-images.githubusercontent.com/30498799/114488493-0de8c580-9c44-11eb-801b-af238541efae.png)
