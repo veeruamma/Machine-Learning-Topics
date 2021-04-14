@@ -5,7 +5,10 @@ Projects worked on machine learning algorithms
 
 While fitting the model, there can be 2 events which will lead to the bad performance of the model. These events are
 1. **Underfitting** : Where the model couldn't fit the data well enough. This model gives lower accuracy and is unbale to capture the relationship between input and output variables. It can be avoided by using more data or by optimising the parameters of the model.
+**Higher Error on both train and test data i.e High Bias and High Variance**
+
 2. **Overfitting** : When the model predicts very well on training data and is not able to predict well on test data or validation data. the main reason for this could be memorising the training data and unable to generalize the test or unseen data. It can be avoided by using regularisation techniques such as drop out or by propser features selection.
+**Higher Error only on test data i.e Low Bias and High Variance**
 
 ![image](https://user-images.githubusercontent.com/30498799/114488493-0de8c580-9c44-11eb-801b-af238541efae.png)
 
@@ -36,6 +39,12 @@ Best fit line equation for linear regression is **y= mx + c**,  where m is slope
 6. Minimum records : at least of 20 records of input variables needed.
 
 #### Polynomial Regression : It is a non-linear regression and relationship of output variable is fitted to nth degree of the input variable.
+
+#### Ridge and Lasso Regression
+These regression techniques are used when there is a overfitting behavior of the model. Ideally, the model should be well generalized and able to perform well on unseen data but in case of overfitting the model performance will be bad on unseen data. Hence to avoid this kind of overfitting in lineaer regression, we use Ridge and Lasso Regression techniques.
+
+Genearalized model will have as much as low bias and low variance, but the overfitted model will have low bias but high variance hence the Ridge and Lasso techniques will lower the variance with the help of additional parameters in cost function such as alpha and squared slope in case of Ridge and magnitude of the slope in case of Lasso. 
+Lasso helps in lowering the variance and also important feature selection by removing the low slope values.
 
 #### Advantages of Using Linear Regression
 1.  Linear Regression method is very easy to use. If the relationship between the variables (independent and dependent) is known, we can easily implement the regression method accordingly (Linear Regression for linear relationship).
