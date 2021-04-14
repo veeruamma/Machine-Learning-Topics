@@ -1,11 +1,11 @@
 # Machine-Learning-Topics
 Projects worked on machine learning algorithms
 
-## Underfitting and Overfitting
-
 _**Bias**_ : Error generated on the training data 
 
 _**Variance**_ : Error generated on the testing or unseen data 
+
+## Underfitting and Overfitting
 
 While fitting the model, there can be 2 events which will lead to the bad performance of the model. These events are
 1. **Underfitting** : Where the model couldn't fit the data well enough. This model gives lower accuracy and is unbale to capture the relationship between input and output variables. It can be avoided by using more data or by optimising the parameters of the model.
