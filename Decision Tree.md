@@ -59,7 +59,7 @@ There are different types of algorithms used to build decision tree such as
 
 ## Challenges in Decision Tree 
 * **Overfitting**: Fatures with very low importnace can lead into overfitting of the model. This can be avoided by two methods
-    1.  **_Pruning_**: It is a process of removing the branches havign the features of low importance. It removes the nodes either from leaves or nodes. there are two pruning techniques such as post pruning and pre pruning used to avoid overfitting.
+    1.  **_Pruning_**: It is a process of removing the branches having the features of low importance. It removes the nodes either from leaves or nodes. there are two pruning techniques such as post pruning and pre pruning used to avoid overfitting.
     2.  **_Ensemble method or bagging and boosting_** : It resamples the training data repeatedly by building multiple decision trees. Boosting technique is used to train new instances to give importance to those instances which are misclassified. AdaBoost is one commonly used boosting technique.
 * **Discretization**: When the data contains too many numerical values, discretization is required as the algorithm fails to make a decision on such small and rapidly changing values. Such a process can be time consuming and produce inaccurate results when it comes in training the data.
 
