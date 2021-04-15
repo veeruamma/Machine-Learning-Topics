@@ -16,6 +16,13 @@ While fitting the model, there can be 2 events which will lead to the bad perfor
 
 ![image](https://user-images.githubusercontent.com/30498799/114488493-0de8c580-9c44-11eb-801b-af238541efae.png)
 
+## R-squared and Adjusted R-squard
+In case of regression models, apart form the accuracy and loss, there are other metrics to evaluate the performance of the model such as R-squared and Adjusted R-squared.
+
+**R-square may work well in simple linear regression but in case of multiple linear regression, every time you add a independent variable to the model, the R-Squared value increases, even if the independent variavle is insignificant. It never decreass. Whereas Adjusted R-squared values increases only when the independent variable is significant and affects dependent varibale .**
+
+**Adjusted R-squared value will be always less than or equal to R-squared value** 
+
 
 ## Linear Regression 
 It is a method used to find the relationship between the outcome variable also known as the dependent variable, and one or more variable often called as independent variables. This method is mostly used for forecasting. There are different rehression techniques based on the number of independent varibales and the type of realtionship between varibales.
