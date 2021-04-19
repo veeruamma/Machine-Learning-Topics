@@ -68,22 +68,6 @@ Lasso helps in lowering the variance and also important feature selection by rem
  3. The presence of high correlation among the variables also leads to the poor performance of the linear regression model.
 
 ## Logistic Regression 
-It solely depends on maximum likelihood estimation. _Maximum likelihood estimation maximises the probability that classifies the event being 1 or 0 by estimating certain parameters. Every probability equation goes by the following._
-
-![image](https://user-images.githubusercontent.com/30498799/114493582-61134600-9c4d-11eb-8376-8dd566a62081.png)
-
-It finds out the probability by transforming the dependent/predictive variable  into a logit variable with respect to the independent/input variable or the features of the input data.
-
-#### Merits of Logistic Regression
-  * Logistic Regression has less chance of overfitting.
-  * Tuning of parameters is not required much
-
-#### Merits of Logistic Regression
-  * They fail to play good in large datasets
-  * The algorithm only works fine in linearly separable data
-  * They are not flexible with continuous data
-
-##### Logistic Regression works fine only when the target variable is discrete in nature. They do not have the flexibility to act as regression analysis. Also, they have less chance of overfitting but in data having a higher dimension, logistic can overfit. For such cases, there are regularising techniques called L1 and L2 which shrink the coefficients of the algorithm to avoid overfitting.  Logistic regression can also work fine with the discretised data as they do not follow a decision-based approach.
 
 ## Decision Tree
 
