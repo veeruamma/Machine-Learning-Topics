@@ -19,7 +19,7 @@ It finds out the probability by transforming the dependent/predictive variable  
 
 
 It is basically used for binary classification. But why does it call as regression ??? It's because as the no of outliers increses the best fit line deviates from the originality and causes wrong predictions.
-Hence to deal with outliers, a function called Sigmoid is used in Logistic Regression, which takes values between 0 and 1 and it's defined as 
+Hence to deal with outliers, a function called Sigmoid is used in Logistic Regression, which gives values between 0 and 1 by removing the outliers and it's defined as 
 
 
 ![image](https://user-images.githubusercontent.com/30498799/115192640-a76d1700-a11d-11eb-9d87-bf48f5dbec75.png) 
