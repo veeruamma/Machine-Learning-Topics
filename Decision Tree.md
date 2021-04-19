@@ -40,13 +40,18 @@ There are different types of algorithms used to build decision tree such as
 3.  _It's a flexible algorithm as it doesn't not affected by a missing value._
 
 
+**Pure split is called as a leaf node where you will have only one class values in the node.**
+
 ## Decision Tree Parameters
-1.  **Entropy** :
-    * It is a measure of impurity present in the data.
+1.  **Entropy** : 
+    * It is a measure of impurity present in the data and its split.
     * Entropy with the lowest value makes a model better in terms of prediction as it segregates the classes better.
+    * It gives values between 0 and 1. o indicates the best split and 1 as the worst split. Its unit is bits.
+    * Let be H(s) is the entropy then H(S) = -P(+) log 2(P+) - P(-) log 2(P-) and P(+) / P(-) means % of +ve classes / % of -ve classes.
 
 2.  **Information Gain** :
-    * It is a measure used to generalize the impurity.
+    * It is technique used to make better split of the dataset by combining all the entropies calculated for different feature as leasf node. 
+    * Information gain is calculated for different combination of features split and construct the decision tree basd on the higher information gain.
     * Higher the information gain, lower is the entropy.
     * 
 3.  **Gini** :
