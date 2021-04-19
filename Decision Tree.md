@@ -56,13 +56,13 @@ There are different types of algorithms used to build decision tree such as
     * 
 3.  **Gini** :
     * It is a measure of misclassification and is used when the data contain multi class labels.
-    * It is similar to entropy but it calculates much quicker than entropy.
+    * It is similar to entropy but it calculates much quicker than entropy as it's computationally efficient as it doesn't deal with any logarithmic calcualtions unlike entropy where it depends on logarithmic calculation.
   
 4.  **Reduction in Variance** :
     * It is used when the decision tree works for regression and the output is continuous is nature.
 
 
-## Challenges in Decision Tree 
+## Challenges in Decision Tree : Time consuming in finding the better split of the dataset to construct the optimal decision tree
 * **Overfitting**: Fatures with very low importnace can lead into overfitting of the model. This can be avoided by two methods
     1.  **_Pruning_**: It is a process of removing the branches having the features of low importance. It removes the nodes either from leaves or nodes. there are two pruning techniques such as post pruning and pre pruning used to avoid overfitting.
     2.  **_Ensemble method or bagging and boosting_** : It resamples the training data repeatedly by building multiple decision trees. Boosting technique is used to train new instances to give importance to those instances which are misclassified. AdaBoost is one commonly used boosting technique.
