@@ -18,6 +18,7 @@ It finds out the probability by transforming the dependent/predictive variable  
 ##### Logistic Regression works fine only when the target variable is discrete in nature. They do not have the flexibility to act as regression analysis. Also, they have less chance of overfitting but in data having a higher dimension, logistic can overfit. For such cases, there are regularising techniques called L1 and L2 which shrink the coefficients of the algorithm to avoid overfitting.  Logistic regression can also work fine with the discretised data as they do not follow a decision-based approach.
 
 
+In Linear Regression, the output is the weighted sum of inputs. Logistic Regression is a generalized Linear Regression in the sense that we don’t output the weighted sum of inputs directly, but we pass it through a function that can map any real value between 0 and 1.
 It is basically used for binary classification. But why does it call as regression ??? It's because as the no of outliers increses the best fit line deviates from the originality and causes wrong predictions.
 Hence to deal with outliers, a function called Sigmoid is used in Logistic Regression, which gives values between 0 and 1 by removing the outliers and it's defined as 
 
