@@ -11,7 +11,7 @@ They are often generalized with support vector machines but SVM has many more pa
 
 ![image](https://user-images.githubusercontent.com/30498799/114537751-25946e00-9c85-11eb-950b-ab659263ac07.png)
 
-From the above diagram, we can assume infinite hyperplanes(left). The maximum margin classifier comes with a single hyperplane that divides the data(right). **The data touching the positive and negative hyperplanes is referred to as support vectors.**
+From the above diagram, we can assume infinite hyperplanes(left). The maximum margin classifier comes with a single hyperplane that divides the data(right). **The data touching the positive and negative hyperplanes is referred to as support vectors.** We will have to select a model with more marginal distance for more generalized model.
 
 ###### The maximum margin classifier often fails in the situation of non-separable cases where it cannot allot a different hyperplane to classify _non-separable data_. For such cases, a support vector classifier comes to the rescue.
 
