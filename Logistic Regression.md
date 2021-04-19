@@ -12,7 +12,7 @@ It finds out the probability by transforming the dependent/predictive variable  
 
 #### Merits of Logistic Regression
   * They fail to play good in large datasets
-  * The algorithm only works fine in linearly separable data
+  * The algorithm **only works fine in linearly separable data**
   * They are not flexible with continuous data
 
 ##### Logistic Regression works fine only when the target variable is discrete in nature. They do not have the flexibility to act as regression analysis. Also, they have less chance of overfitting but in data having a higher dimension, logistic can overfit. For such cases, there are regularising techniques called L1 and L2 which shrink the coefficients of the algorithm to avoid overfitting.  Logistic regression can also work fine with the discretised data as they do not follow a decision-based approach.
