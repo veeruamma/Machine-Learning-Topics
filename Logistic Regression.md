@@ -29,3 +29,5 @@ The plot of the Sigmoid function will be S curve as shown below
 
 ![image](https://user-images.githubusercontent.com/30498799/115192766-d5525b80-a11d-11eb-9b1f-ab4213dd78ef.png)
 
+
+Can we also solve multi class classfication ? The naswer is yes, we can use ot for multi class classification also. It's also known as One v/s Rest (ALL).  It will group the few of all the categories as one category and rest as other category and builds a model. Similarly it will go for all the combinations of categories and try to learn and predict the multiple categories. The probabilities given by multiple models will be chosen by the maximum value as the output.
