@@ -35,10 +35,10 @@ The **“Jaccard”** method of variance calculation can be used when the variab
 |Identifier|Class name|args|Distance Function|
 |----|-----|-------|-------|
 |"euclidean"|Euclidean Distance||sqrt(sum((x – y)^2))|
-|"manhattan"|Manhattan Distance||sum(|x – y|)|
-|"chebyshev"|Chebyshev Distance||max(|x – y|)|
-|"minkowski"|Minkowski Distance|p|sum(|x – y|^p)^(1/p)|
-|"wminkowski"|WMinkowski Distance|p, w|sum(|w * (x – y)|^p)^(1/p)|
+|"manhattan"|Manhattan Distance||sum(mod(x – y))|
+|"chebyshev"|Chebyshev Distance||max(mod(x – y))|
+|"minkowski"|Minkowski Distance|p|sum(mod(x – y)^p)^(1/p)|
+|"wminkowski"|WMinkowski Distance|p, w|sum(mod(w * (x – y))^p)^(1/p)|
 |"seuclidean"|SEuclidean Distance|V|sqrt(sum((x – y)^2 / V))|
 |"mahalanobis"|Mahalanobis Distance|V, VI|sqrt((x – y)’ V^-1 (x – y)|
 
