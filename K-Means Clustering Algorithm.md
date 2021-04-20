@@ -24,3 +24,21 @@ Manhattan Distance= |5-1|+|4-1|= 7
 In the case of Euclidean distance calculation:
 
 Euclidean Distance = SQRT[(5-1)^2+(4-1)^2]=5
+
+3.  **Chebyshev Distance:** _It considers the maximum value of all the distances based on the Manhattan method._
+
+
+The **“Jaccard”** method of variance calculation can be used when the variable **data type is Boolean in nature**.
+
+##### A full reference on different distance metrics that are available for calculation:
+
+|Identifier|Class name|args|Distance Function|
+|----|-----|-------|-------|
+|"euclidean"|Euclidean Distance||sqrt(sum((x – y)^2))|
+|"manhattan"|Manhattan Distance||sum(|x – y|)|
+|"chebyshev"|Chebyshev Distance||max(|x – y|)|
+|"minkowski"|Minkowski Distance|p|sum(|x – y|^p)^(1/p)|
+|"wminkowski"|WMinkowski Distance|p, w|sum(|w * (x – y)|^p)^(1/p)|
+|"seuclidean"|SEuclidean Distance|V|sqrt(sum((x – y)^2 / V))|
+|"mahalanobis"|Mahalanobis Distance|V, VI|sqrt((x – y)’ V^-1 (x – y)|
+
