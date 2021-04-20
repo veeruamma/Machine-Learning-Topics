@@ -1,5 +1,7 @@
 # Machine-Learning-Topics
-Projects worked on machine learning algorithms
+
+![image](https://user-images.githubusercontent.com/30498799/115365311-d73c1d80-a1f6-11eb-970f-a7151be8b9c6.png)
+
 
 _**Bias**_ : Error generated on the training data 
 
