@@ -19,7 +19,7 @@ From the above diagram, we can assume infinite hyperplanes(left). The maximum ma
 
 It is an extended version of the maximum margin classifier which also deals with the non-separable cases.
 
-Let us consider a tuning parameter C. In this classifier, the high value of C can give us a robust model. A lower value of C gives us a flexible model
+Let us consider a tuning parameter C which can be used for regularization. In this classifier, the high value of C can give us a robust model. A lower value of C gives us a flexible model
 
 ![image](https://user-images.githubusercontent.com/30498799/114538240-bb2ffd80-9c85-11eb-86be-8c039621c47f.png)
 
