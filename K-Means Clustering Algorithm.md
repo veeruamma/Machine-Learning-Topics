@@ -42,3 +42,50 @@ The **“Jaccard”** method of variance calculation can be used when the variab
 |"seuclidean"|SEuclidean Distance|V|sqrt(sum((x – y)^2 / V))|
 |"mahalanobis"|Mahalanobis Distance|V, VI|sqrt((x – y)’ V^-1 (x – y)|
 
+## K-Means :
+* It is a non-hierarchical approach to forming good clusters.
+* The number of clusters needs to be determined before the model is prepared.
+* These K values are measured by certain evaluation techniques once the model is run.
+* K-means clustering is widely used in large dataset applications.
+
+## How does K-means Clustering work?
+
+### Pre-Processing of the data
+1. As this algorithm is based on distance calculation from each observation to the centroids present and this being an iterative process, the data needs to be in a proper format.
+2. In case the dataset has variables with different units of measures, one should undertake the process of Scaling to bring all the variables into one unit/ measure, for further algorithm processing.
+3. There are 2 methods of Scaling:  Z Scaling and Min-Max Scaling
+  * **Z Scaling: It is to be used when the variance between the column is very less.**
+    * Features will be rescaled
+    * Have the properties of a standard normal distribution (μ=0 and σ=1)
+  * **Min Max Scaling: It is to be used when the variance between columns is high.**
+    * The data is scaled to a fixed range – 0 to 1.
+    * The cost of having this bounded range – smaller standard deviations, which can suppress the effect of outliers
+
+
+#### Steps followed by K-Means Algorithm
+* The first step in this model is to specify the K value.
+* Based on this K value, the dataset is partitioned into initial clusters.
+* Random centroids are assigned to the dataset from the initial K values which will be away from the original observations.
+* Then the model calculates distances from every observation in the cluster to the random centroid. Where the distance value is less and nearer to the random centroid, every observation gets mapped to the centroid. Like this, for all the observations in the dataset, the values are calculated and the observations are assigned suitably. The Euclidean distance metric is the default measure to calculate all distance from the centroid to the observations.
+* Once the distances are calculated, random clusters are formed.
+* Based on these random clusters, an iterative process of assigning new centroids enables the formation of new clusters. Here the variance is calculated to every observation in the cluster from the centroid. This process runs till the time Heterogeneity between the groups is greater than Homogeneity within the groups i.e SSB > SSW.
+
+### Model Evaluation
+**Silhouette Score:**
+* This method is also called Indirect model evaluation technique.
+* The model helps to analyse the correctness of every observation mapped to respective clusters based on distance criteria.
+**Sil_Width score= (b-a) / MAX(a,b), where** b = distance from the random observation to its neighbouring cluster,  a = distance from the random observation to its own cluster
+* If the score has a positive value with a range of score between -1 to +1, the cluster mapping of the data point is correct.
+* Once this is achieved, we have to get into the Silhouette Score.
+* Silhouette Score is the average of Sil_Width score based on the calculation of all the observations in the dataset .
+* **Conclusions drawn:**
+
+|Value Tend to|Conclusion|
+|----|-----|
+|+1|The clusters formed are away from each other|
+|0|The clusters are not separable|
+|-1|The model has failed in forming the clusters|
+
+#### WSS Plot (Elbow Plot):
+* WSS Plot also called **“Within Sum of Squares”** is another solution under the K-Means algorithm which helps to decide the value of K (number of clusters).
+* The values taken to plot the WSS plot will be the variance from each observation in the clusters to its centroid, summing up to obtain a value.
