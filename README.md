@@ -23,6 +23,7 @@ In case of regression models, apart form the accuracy and loss, there are other 
 
 **Adjusted R-squared value will be always less than or equal to R-squared value** 
 
+# The most popular Machine Learning Algorithms
 
 ## Linear Regression 
 
