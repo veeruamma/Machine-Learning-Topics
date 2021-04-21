@@ -17,6 +17,8 @@ In k-NN regression, the output is the property value for the object. This value 
 2.  Calculate the distance of K no of nearest neighbours.
 3.  How many nearest belong to each category
 4.  Finally, the classification is done based on maximum no of neighbours of the cteagories found.
+
+
 (Regression example)
 1.  Select K value
 2.  Calculate the mean or average distance of K no of nearest neighbours and predicts the value.
