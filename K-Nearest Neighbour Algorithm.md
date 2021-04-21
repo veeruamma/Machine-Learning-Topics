@@ -14,3 +14,5 @@ KNN belongs to a group of lazy learners where as logistic, SVM, Neural Nets belo
 Metrics such as Ecludian, Manahattan distance calculations are used to find the nearest neighbours.
 
 In case of imbalanced dataset and outliers, the KNN can be biased w.r.t output.
+
+Choosing the K-value for KNN is trcicky and it's selected using the error rate behaviour w.r.t the K value. This selection can help in getting the robust model.
