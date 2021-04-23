@@ -35,3 +35,20 @@ A random forest regressor works with data having a numeric or continuous output 
 Example- the price of houses, milk production of cows, the gross income of companies, etc.
 
 
+## Advantages and Disadvantages of Random Forest
+
+1.  It reduces overfitting in decision trees and helps to improve the accuracy
+2.  It is flexible to both classification and regression problems
+3.  It works well with both categorical and continuous values
+4.  It automates missing values present in the data
+5.  Normalising of data is not required as it uses a rule-based approach.
+
+
+However, despite these advantages, a random forest algorithm also has some drawbacks.
+1.  It requires much computational power as well as resources as it builds numerous trees to combine their outputs. 
+2.  It also requires much time for training as it combines a lot of decision trees to determine the class.
+3.  Due to the ensemble of decision trees, it also suffers interpretability and fails to determine the significance of each variable.
+
+
+
+
