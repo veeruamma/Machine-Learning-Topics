@@ -25,3 +25,13 @@ A sample idea of a random forest classifier is given below
 
 The above diagram gives us an idea of how each tree has grown and the variation of the depth of trees as per sample selected but in the end process, **voting is performed for final classification. Also, averaging is performed when we deal with the regression problem.**
 
+
+## Classifier Vs. Regressor
+
+A random forest classifier works with data having discrete labels or better known as class. 
+Example- A patient is suffering from cancer or not, a person is eligible for a loan or not, etc.
+
+A random forest regressor works with data having a numeric or continuous output and they cannot be defined by classes.
+Example- the price of houses, milk production of cows, the gross income of companies, etc.
+
+
