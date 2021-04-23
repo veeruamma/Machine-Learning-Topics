@@ -22,3 +22,6 @@ A sample idea of a random forest classifier is given below
 
 ![image](https://user-images.githubusercontent.com/30498799/115809432-b0603000-a41e-11eb-85ca-faa9b6eba3b5.png)
 
+
+The above diagram gives us an idea of how each tree has grown and the variation of the depth of trees as per sample selected but in the end process, **voting is performed for final classification. Also, averaging is performed when we deal with the regression problem.**
+
